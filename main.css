@@ -14,3 +14,8 @@ h2 {
   font-family: 'Indie Flower', cursive;
   font-size: 1.875em;
 }
+
+.main-header {
+  text-align: center;
+  background-color: #81F7BE;
+}
