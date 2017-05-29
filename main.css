@@ -4,13 +4,14 @@ body {
 }
 
 h1 {
-  color: #81F7BE;
+  color: #FF8000;
   font-family: 'Barrio', cursive;
-  font-size: 2.5em;
+  font-size: 4em;
+  text-align: center;
 }
 
 h2 {
-  color: #81F7BE;
+  color: #FF8000;
   font-family: 'Indie Flower', cursive;
   font-size: 1.875em;
 }
