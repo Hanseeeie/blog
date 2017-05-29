@@ -2,7 +2,7 @@ body {
   background-color: #ffffff;
   background-image: url("Pictures/background2.jpg");
   font-size: 14px;
-  animation: scroll linear infinite 300s;
+  animation: scroll linear infinite 500s;
 }
 
 h2 {
