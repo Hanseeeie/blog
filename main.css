@@ -1,21 +1,76 @@
 body {
-  background-image: url("Pictures/background2.jpg");
   background-color: #ffffff;
-}
-
-h1 {
-  color: #FF8533;
-  font-family: 'Barrio', cursive;
-  font-size: 4em;
+  background-image: url("Pictures/background2.jpg");
+  font-size: 14px;
+  animation: scroll linear 120s;
 }
 
 h2 {
   color: #FF8533;
   font-family: 'Indie Flower', cursive;
-  font-size: 1.875em;
+  font-size: 2rem;
 }
 
 .main-header {
-  text-align: center;
   background-color: #81F7BE;
+  text-align: center;
+  width: 100%;
+}
+
+.main-header__title {
+  color: #FF8533;
+  font-family: 'Barrio', cursive;
+  font-size: 5rem;
+}
+
+.fancy-frame{
+  display: inline-block;
+  border: 4px solid transparent;
+  position: relative;
+  width: auto;
+}
+
+.fancy-frame:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  transform: rotateZ(4deg);
+  z-index: -1;
+}
+
+.fancy-frame--green:after{
+  background-color: #81F7BE;
+}
+
+.fancy-frame--orange:after{
+  background-color: #FF8533;
+}
+
+.cat-list{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.cat{
+  padding: 32px;
+}
+
+.cat__name {
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+@keyframes scroll {
+    0%{
+      background-position: 0 0;
+    }
+    100%{
+      background-position: 50000px 50000px;
+    }
 }

@@ -1,20 +1,51 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="main.css" />
-    <link href="https://fonts.googleapis.com/css?family=Barrio|Indie+Flower" rel="stylesheet">
-
     <title>Hannah's blog</title>
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link href="https://fonts.googleapis.com/css?family=Barrio|Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css" />
   </head>
   <body>
-<header class="main-header" role="banner">
-    <h1>Welcome</h1>
-</header>
-    <h2>Behold the floof!</h2>
-    <img src="Pictures/floof.jpg" alt="Picture of a floof."/>
-    <h2>Behold the squoosh!</h2>
-    <img src="Pictures/squoosh.jpg" alt="Picture of a squoosh." />
-    <h2>Behold impastacat!</h2>
-    <img src="Pictures/impastacat.jpg" alt="Picture of an impastacat." />
+
+    <header class="main-header">
+      <h1 class="main-header__title">Welcome</h1>
+    </header>
+
+    <div class="cat-list">
+
+      <div class="cat">
+        <h2 class="cat__name">Behold the floof!</h2>
+        <div class="fancy-frame fancy-frame--orange">
+          <img class="fancy-frame__img" src="Pictures/floof.jpg" alt="Picture of a floof."/>
+        </div>
+      </div>
+
+      <div class="cat">
+        <h2 class="cat__name">Behold the squoosh!</h2>
+        <div class="fancy-frame fancy-frame--green">
+          <img class="fancy-frame__img" src="Pictures/squoosh.jpg" alt="Picture of a squoosh." />
+        </div>
+      </div>
+
+      <div class="cat">
+        <h2 class="cat__name">Behold impastacat!</h2>
+        <div class="fancy-frame fancy-frame--orange">
+          <img class="fancy-frame__img" src="Pictures/impastacat.jpg" alt="Picture of an impastacat." />
+        </div>
+      </div>
+
+    </div>
+
+    <!--
+      <header class="main-header">
+        <h1 class="main-header__title">Hello</h1>
+        <div class="search-bar">
+          <input type="search" class="search-bar__input" />
+          <button type="submit" class="search-bar__submit">Search</button>
+        </div>
+      </header>
+    -->
+
   </body>
 </html>
